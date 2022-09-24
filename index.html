@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Mini-Project</title>
 </head>
 <body>
-    <nav>
-        <div class="nav">
+    <header>
+        <nav>
+            <h1>Landing Page</h1>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Github</a></li>
+                <li id="about">About</li>
+                <li id="contect">Contect</li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+    <section class="about">
+        <h2>About</h2>
+        <p><strong>
+            ipsum dolor sit amet consectetur, adipisicing elit. Omnis porro asperiores, itaque nisi nulla pariatur voluptatum ipsum! Distinctio quidem, voluptas libero totam labore enim. Illum optio impedit sapiente commodi qui!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sint ullam labore facere ab maiores fugiat, aut sapiente ipsam expedita cumque laboriosam, dolorum porro alias distinctio nobis autem. Commodi, doloremque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt ad in ut culpa, necessitatibus molestias praesentium? Ipsum alias, repellat odio consectetur impedit, quis ipsam, soluta ea voluptate quisquam accusantium?
+         </strong> </p>
+    </section>
+    <h2>Contect Form</h2>
+    <section class="contect">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+
+            <label for="fname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="johndoe@mail.com">
+
+            <label for="tel">Tel</label>
+            <input type="number" id="tel" placeholder="+44">
+
+            <input type="submit" value="submit">
+
+        </form>
+    </section>
+    <footer></footer>
 </body>
 </html>
