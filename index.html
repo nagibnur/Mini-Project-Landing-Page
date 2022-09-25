@@ -1,49 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>Mini-Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>My Landing Page</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1>Landing Page</h1>
-            <ul>
-                <li id="about">About</li>
-                <li id="contect">Contect</li>
-            </ul>
-        </nav>
-    </header>
-    <section class="about">
-        <h2>About</h2>
-        <p><strong>
-            ipsum dolor sit amet consectetur, adipisicing elit. Omnis porro asperiores, itaque nisi nulla pariatur voluptatum ipsum! Distinctio quidem, voluptas libero totam labore enim. Illum optio impedit sapiente commodi qui!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sint ullam labore facere ab maiores fugiat, aut sapiente ipsam expedita cumque laboriosam, dolorum porro alias distinctio nobis autem. Commodi, doloremque!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt ad in ut culpa, necessitatibus molestias praesentium? Ipsum alias, repellat odio consectetur impedit, quis ipsam, soluta ea voluptate quisquam accusantium?
-         </strong> </p>
+  <header>
+    <nav class="text-right">
+      <ul>
+        <li> <a href="https://github.com/">Github</a></li>
+        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text-center">My New Website</h1>
+    <figure>
+      <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
+      <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+    </figure>
+    <section id="contact">
+      <h2 class="text-center">Contact Me</h2>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name">
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
     </section>
-    <h2>Contect Form</h2>
-    <section class="contect">
-        <form action="action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+  </main>
 
-            <label for="fname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="johndoe@mail.com">
-
-            <label for="tel">Tel</label>
-            <input type="number" id="tel" placeholder="+44">
-
-            <input type="submit" value="submit">
-
-        </form>
-    </section>
-    <footer></footer>
+  <footer class="text-center">
+    © 2022 My New Website Productions 
+  </footer>
+    
 </body>
 </html>
